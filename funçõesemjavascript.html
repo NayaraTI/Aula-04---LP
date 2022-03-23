@@ -1,0 +1,64 @@
+<meta charset="utf-8">
+
+<script>
+
+// As funções em boas práticas , declaramos as mesmas no topo do código
+
+function criaespaco(){
+    document.write("<br>")
+}
+
+let ano = 2021
+
+document.write("Eu nasci em: " +(ano - 36))
+criaespaco()
+document.write("Adriano nasceu em: " +(ano -25))
+criaespaco()  // Função só com os parênteses é uma função sem argumentos ou parâmetros.
+
+
+/// Funções com Argumentos
+
+function soma(a,b){ 
+    return a + b
+}
+
+alert(soma(2,6))
+
+x = soma(2,5)
+
+alert(x)
+
+// Função de função
+
+function mostratexto(frase){
+    document.write(frase)
+    criaespaco()
+}
+
+mostratexto("Mostra texto no Argumento")
+mostratexto("Segunda frase com Quebras de linha")
+
+
+////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////EXERCICIOS/////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+function multiplicacao(a,b){
+    return a * b
+    
+}
+
+alert(multiplicacao(10,5))
+
+
+
+
+
+    
+
+
+
+
+
+
+</script>
